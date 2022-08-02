@@ -25,11 +25,13 @@ header {
 }
 
 #headerLogo {
-width:15%;
+    width:20%;
+    margin-right: 30px;
 }
 
 #headerNavList {
-    width: 65%;
+    width: 60%;
+    margin-right: 350px;
 }
 
 #headerNavList ul {
@@ -38,7 +40,6 @@ width:15%;
     align-items: flex-start;
     padding: 0;
     gap: 30px;
-
 }
 
 #headerNavList ul li{
@@ -58,7 +59,8 @@ width:15%;
 #headerIcon {
     display: flex;
     gap: 15px;
-    width: 10%;
+    width:10%;
+    margin-right: 30px;
 }
 
 #button-header {
@@ -387,10 +389,13 @@ main {
 
     #headerLogo {
         width: 60%;
+        margin: 0;
+        margin-right: 20px;
     }
 
     #headerNavList {
         width: 80%;
+        margin: 0;
     }
     
     #headerNavList ul {
